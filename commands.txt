@@ -1,0 +1,41 @@
+    1  mkdir lab1
+    2  cd lab1
+    3  mkdir lab1
+    4  cd lab1
+    5  git init
+    6  notepad l1.txt
+    7  git add .
+    8  git commit --global user.name "Stefani"
+    9  git config --global user.name "Stefani"
+   10  git config --global user.email stefani_najdoska@live.com
+   11  git commit -m "Initial commit"
+   12  nano
+   13  ls
+   14  nano l1.txt 
+   15  cat l1.txt 
+   16  git commit -m "modify l1.txt"
+   17  git clone https://github.com/Stefanii/lab1.git
+   18  git clone https://github.com/Stefanii/lab1.git origin
+   19  git push origin master
+   20  git commit -m "first commit"
+   21  git remote add origin https://github.com/Stefanii/lab1.git
+   22  git push -u origin master
+   23  nano l1.txt
+   24  git log
+   25  git status
+   26  git reset --hard
+   27  cat l1.txt 
+   28  git branch logging
+   29  git checkout logging 
+   30  git log > log.txt
+   31  start .
+   32  git push 
+   33  git push origin logging 
+   34  git checkout master 
+   35  git merge logging
+   36  git push
+   37  git branch allcomands
+   38  git checkout allcomands
+   39  nano commands.txt
+   40  history
+   41  history > commands.txt
